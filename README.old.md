@@ -1,2 +1,0 @@
-# andarbechPorfolio
-project and resumen 
