@@ -36,7 +36,7 @@ body {
   background-image: url(../public/assets/background.jpg);
   background-size: auto;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: 100%;
 }
 
@@ -92,12 +92,12 @@ a:hover {
 }
 .btn:hover {
   background: var(--color-white);
-  color: var(--color-bg);
+  color: var(--color-primary);
   border-color: transparent;
 }
 .btn-primary {
   background: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 img {
   display: block;
