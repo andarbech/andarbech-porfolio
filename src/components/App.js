@@ -1,7 +1,5 @@
 import React from "react";
 import About from "./pages/About/About";
-import "./App.css";
-
 import HeaderComponent from "./organism/Header";
 import NavigationComponent from "./pages/Navigation";
 import Experience from "./pages/Experience";
@@ -15,8 +13,8 @@ const App = () => {
   return (
     <div>
       <HeaderComponent />
-      <About />
       <NavigationComponent />
+      <About />
       <Experience />
       <Services />
       <Porfolio />
