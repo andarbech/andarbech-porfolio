@@ -1,11 +1,11 @@
 .experience__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 .experience__container > div {
   background: darkslategray;
-  padding: 2.4rem 5rem;
+  padding: 1.4rem 4rem ;
   border-radius: 2rem;
   border: 1px transparent;
   transition: var(--transition);
@@ -27,9 +27,33 @@
 }
 .experience__details {
   display: flex;
-  gap: 10rem;
+  gap: 1rem;
 }
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+/* media Queries(medium devices)*/
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience__content {
+    padding: 1rem;
+  }
+}
+/* media Queries(small devices)*/
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 2rem;
+  }
+  .experience__container > div {
+    width: 85%;
+    padding: 2rem 1rem;
+  }
 }
