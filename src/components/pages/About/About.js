@@ -6,7 +6,7 @@ import {FiUsers} from "react-icons/fi";
 import {VscFolderLibrary} from "react-icons/vsc";
 const About = () => {
   return (
-    <section id="about">
+    <section className="container" id="about">
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -38,7 +38,7 @@ const About = () => {
             about software technologies and Finance Analysis. Some technologies
             I enjoy working with are Docker, MERN (Mongo, Express, React, Node)
             LAMP (Linux, Apache, MySql, PHP) Stacks and MIcrosoft
-            Enviroment(Azure, PowerApps, Power Automate).
+            Enviroment (Azure, PowerApps, Power Automate).
             <hr />
             Off the computer you can find me playing chess or reading magical
             realism novels .

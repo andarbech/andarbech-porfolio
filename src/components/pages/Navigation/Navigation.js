@@ -7,13 +7,13 @@ import {MdDesignServices} from "react-icons/md";
 import {MdContactMail} from "react-icons/md";
 import {useState} from "react";
 const navigationComponent = () => {
-  const [activeNav, setActiveNav] = useState("");
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
       <a
         href="#"
         onClick={() => setActiveNav("#")}
-        className={activeNav == "#" ? "active" : ""}
+        className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>

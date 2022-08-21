@@ -10,15 +10,15 @@
 }
 :root {
   --color-bg: #1f1f1f38;
-  --color-bg-varint: #2c2c6c;
+  --color-bg-varint: #darkslategray;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --container-with-lg: 75%;
-  --container-with-md: 86%;
-  --container-with-ms: 90%;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-ms: 90%;
   --transition: all 400ms ease;
 }
 html {
@@ -43,8 +43,9 @@ body {
 /* *******************General Styles***************** */
 
 .container {
-  width: var(--container-with-lg);
+  width: var(--container-width-lg);
   margin: 0 auto;
+  align-items: center;
 }
 h1,
 h2,
@@ -92,11 +93,13 @@ a:hover {
 }
 .btn:hover {
   background: var(--color-white);
+  /* change */
   color: var(--color-primary);
   border-color: transparent;
 }
 .btn-primary {
   background: var(--color-primary);
+  /* change */
   color: var(--color-white);
 }
 img {
@@ -105,7 +108,7 @@ img {
   object-fit: cover;
 }
 /* media Queries(medium devices)*/
-@media screen and (max-with: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -114,7 +117,7 @@ img {
   }
 }
 /* media Queries(small devices)*/
-@media screen and (max-with: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
