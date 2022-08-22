@@ -14,42 +14,42 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Typescript</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
           </div>
@@ -61,42 +61,42 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>NodeJs</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Mongo</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PHP</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MySql</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Symfony</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
           </div>
@@ -108,28 +108,28 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Azure</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>PowerAutomate</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PowerApps</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PowerBI</h4>
-                <small className="text-light">testing</small>
+                {/* <small className="text-light">testing</small> */}
               </div>
             </article>
           </div>

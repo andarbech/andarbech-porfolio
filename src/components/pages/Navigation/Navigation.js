@@ -3,7 +3,7 @@ import "./navigation.css";
 import {AiOutlineHome} from "react-icons/ai";
 import {AiOutlineUser} from "react-icons/ai";
 import {MdOutlineLibraryBooks} from "react-icons/md";
-import {MdDesignServices} from "react-icons/md";
+// import {MdDesignServices} from "react-icons/md";
 import {MdContactMail} from "react-icons/md";
 import {useState} from "react";
 const navigationComponent = () => {
@@ -31,13 +31,13 @@ const navigationComponent = () => {
       >
         <MdOutlineLibraryBooks />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
         <MdDesignServices />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}

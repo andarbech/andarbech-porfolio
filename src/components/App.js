@@ -16,11 +16,11 @@ const App = () => {
       <NavigationComponent />
       <About />
       <Experience />
-      <Services />
-      <Porfolio />
-      <Testimonials />
-      <Footer />
+      {/* <Services /> */}
+      {/* <Porfolio /> */}
+      {/* <Testimonials /> */}
       <Contact />
+      <Footer />
     </div>
   );
 };
