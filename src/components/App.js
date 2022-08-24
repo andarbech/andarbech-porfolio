@@ -12,14 +12,16 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <div>
-      <HeaderComponent />
-      <NavigationComponent />
-      <About />
-      <Experience />
-      {/* <Services /> */}
-      {/* <Porfolio /> */}
-      {/* <Testimonials /> */}
-      <Contact />
+      <div className="container">
+        <HeaderComponent />
+        <NavigationComponent />
+        <About />
+        <Experience />
+        {/* <Services /> */}
+        {/* <Porfolio /> */}
+        {/* <Testimonials /> */}
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
